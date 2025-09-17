@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(250, 245, 235);
+}
+
 div {
   text-align: center;
 }
@@ -8,7 +12,7 @@ div {
 
 .game label {
   display: inline-block;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: orange;
   font-family: cascadia code, monospace;
   font-weight: bold;

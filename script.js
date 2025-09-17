@@ -20,7 +20,7 @@ submitButton.addEventListener("click", () => {
 
   let outcome = "";
   if (choice === computerChoice) {
-    outcome = "Its a draw";
+    outcome = "It's a draw";
   } else if (
     (choice === "rock" && computerChoice === "scissor") ||
     (choice === "paper" && computerChoice === "rock") ||
@@ -36,4 +36,5 @@ submitButton.addEventListener("click", () => {
   playerScore.textContent = player;
   computerScore.textContent = computer;
   result.textContent = `You chose ${choice.toUpperCase()}, computer chose ${computerChoice.toUpperCase()}. ${outcome}`;
+  document.querySelector('input[name="weapon"]:checked').checked = false;
 });
