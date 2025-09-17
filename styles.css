@@ -1,0 +1,110 @@
+div {
+  text-align: center;
+}
+
+.game input[type="radio"] {
+  display: none;
+}
+
+.game label {
+  display: inline-block;
+  background-color: white;
+  color: orange;
+  font-family: cascadia code, monospace;
+  font-weight: bold;
+  padding: 12px 28px;
+  margin: 8px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: 0.2;
+}
+
+.game input[type="radio"]:checked + label {
+  background-color: orange;
+  color: #fff;
+  border-color: orange;
+}
+
+.game label:hover {
+  opacity: 0.8;
+}
+
+.game label:active {
+  opacity: 0.6;
+}
+
+.game .submit {
+  text-align: center;
+  width: 450px;
+  box-sizing: border-box;
+  background-color: orange;
+  color: white;
+  font-family: cascadia code, monospace;
+  font-weight: bold;
+  padding: 12px 28px;
+  margin: 16px 0 0 0;
+  border: 2px solid orange;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.game .submit:hover {
+  opacity: 0.8;
+}
+
+.game .submit:active {
+  opacity: 0.6;
+}
+
+.game p {
+  font-family: cascadia code, monospace;
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.result .textResult {
+  font-family: cascadia code, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: cascadia code, monospace;
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.scoreboard h2 {
+  font-family: cascadia code, monospace;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.scoreboard .score {
+  font-family: cascadia code, monospace;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.scoreboard .score td,
+th {
+  padding: 0 20px;
+}
